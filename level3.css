@@ -1,0 +1,30 @@
+/* #parent{
+    height: 300px;
+    width:400px;
+    background-color: aqua;
+    font-size: 10px;
+
+}
+#child{
+    height: 50%;
+    background-color: bisque;
+    margin-left: 20%;
+    font-size: 3rem;
+    width: 5em;
+} */
+ div{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    display: inline-block;
+ }
+ #box1{
+    position: static;
+ }
+ #box2{
+    position: relative;
+    top: 20px;
+    left: 30px
+ }

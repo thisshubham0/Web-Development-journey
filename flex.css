@@ -1,0 +1,27 @@
+div{
+    border: 2px solid black;
+}
+#container{
+    height: 200px;
+    width: 800px;
+}
+#box1{
+    height:100px;
+    width: 100px;
+    background-color: antiquewhite;
+}
+#box2{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+}
+#box3{
+    height:100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+#box4{
+    height:100px;
+    width: 100px;
+    background-color: blueviolet;
+}

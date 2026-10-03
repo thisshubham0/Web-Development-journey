@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body>
+    <form action="/store.php">
+        <p>Enter your details</p>
+    <input type="text" placeholder="Enter Your name" required>
+    <br><br>
+    <input type="number" placeholder="enter your Roll no.">
+    <br><br>
+    <p>Enter your class</p>
+    <label for="class1">
+        <input type="radio" value="Class X" name="class"  id="class1">Class X
+    </label>
+    <label for="class2">
+        <input type="radio" value="Class XII" name="class" id="class2">Class XII
+    </label>
+    <br><br>
+    <p>Enter Subjects</p>
+
+    <label for="sub1">
+        <input type="checkbox" value="Math" id="sub1">Math
+    </label>
+    <label for="sub2">
+        <input type="checkbox" value="Physics" id="sub2">Physics
+    </label>
+    <label for="sub3">
+        <input type="checkbox" value="Chemistry" id="sub3">Chemistry
+    </label>
+    <label for="sub4">
+        <input type="checkbox" value="Computer Science" id="sub4">Computer Science
+    </label>
+    <br>
+    <br>
+    <p>select your city </p>
+    <select name="city">
+        <option value="Mumbai" name="city">Mumbai</option>
+        <option value="Delhi" name="city">Delhi</option>
+        <option value="Bengluru" name="city">Bengluru</option>
+        <option value="Varanasi" name="city">Varanasi</option>
+    </select>
+    <br><br>
+    <label for="detail">
+    <textarea placeholder="add extra details..." id="detail" rows=6></textarea>
+    </label>
+    <br><br>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

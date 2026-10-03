@@ -1,0 +1,50 @@
+body{
+    background-color: #9fd7be;
+}
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+button{
+    color: rgb(255, 255, 255);
+     background-color: rgb(47, 40, 176);
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 3px; 
+}
+
+#box{
+    display: flexbox;
+    background-color: aliceblue;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: double;
+    font-family: 'Trebuchet MS';
+}
+
+.heading{
+    color: red;
+    font-weight: 900;
+} 
+
+#mainhead{
+    text-align: center;
+    text-decoration: black dotted  underline;
+}
+a{
+    text-decoration: none;
+    color:brown;
+    font-size: 50px;
+}
+
+#googlelink{
+    background-color: darkseagreen;
+    height: 3cm;
+    width: 5cm;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
